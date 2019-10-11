@@ -1,0 +1,20 @@
+{
+  "name": "video-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "fluent-ffmpeg": "^2.1.2",
+    "hls-server": "^1.5.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "uuid": "^3.3.3"
+  }
+}
